@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.medium{
+    font-weight: 500;
+}
+
+.semibold{
+    font-weight: 600;
+}
+
+
+p, span{
+    font-size: 1rem;
+}
+
+.small {
+    font-size: 0.875rem;
+}
+
+.container{
+    width: 50%;
+    margin-top: 12rem;
+}
+
+body{
+    display: flex;
+    padding: 0 4rem;
+    background: #232323;
+    color: #fff;
+    max-width: 1000px;
+    margin: auto;
+}
+
+button{
+    all: unset;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: 0.5s all;
+    opacity: 1;
+}
+
+.button-primary{
+    background: #1C7ED6;
+    color: #fff;
+    padding: 0.750rem;
+    border-radius: 0.25rem;
+    opacity: 0.7;
+}
+
+.card{
+    background: #2E2E2E;
+    border-radius: 0.25rem;
+    border: 2px solid #424242;
+    padding: 3rem;
+}
+
+.aligne{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gap-2{
+    gap: 1rem;
+}
+
+.mt-1{
+    margin-top: 0.5rem;
+}
+
+.mt-2{
+    margin-top: 1rem;
+}
+
+.mt-3{
+    margin-top: 1.5rem;
+}
+
+.mt-4{
+    margin-top: 2rem;
+}
+
+.block{
+    display: block;
+}
+
+input{
+    all:unset
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.calcu-input{
+     background: #2E2E2E;
+     padding: 0.5rem 1rem;
+     border-radius: 0.5rem;
+     border: 2px solid #424242;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 100%;
+        margin-top: 4rem;
+    }
+    .flex-col{
+        flex-direction: column;
+    }
+
+}
